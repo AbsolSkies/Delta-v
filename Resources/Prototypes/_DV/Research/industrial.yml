@@ -67,3 +67,18 @@
   - ClothingOuterHardsuitAtmos
   - ClothingOuterSuitAtmosFire
   - ClothingHeadHelmetAtmosFire
+
+- type: technology
+  id: DoubleEmergencyTanks
+  name: research-technology-double-emergency-tanks
+  icon:
+    sprite: Objects/Tanks/emergency_double.rsi
+    state: icon
+  discipline: Industrial
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+  - DoubleEmergencyOxygenTank
+  - DoubleEmergencyNitrogenTank
+  - DoubleEmergencyWaterVaporTank
+

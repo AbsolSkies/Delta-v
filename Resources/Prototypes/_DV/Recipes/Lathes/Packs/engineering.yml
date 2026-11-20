@@ -47,3 +47,10 @@
   id: AdvancedConstruction
   recipes:
   - ConstructionBagOfHolding
+
+- type: latheRecipePack
+  id: DoubleEmergencyTanks
+  recipes:
+  - DoubleEmergencyOxygenTank
+  - DoubleEmergencyNitrogenTank
+  - DoubleEmergencyWaterVaporTank
